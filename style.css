@@ -10,8 +10,8 @@ body {
 
 /* Шапка сайта */
 header {
-    width: 1440px;
-    margin: 0 auto;
+    width: 456px;
+    /* margin: 0 auto; */
     background: #8B0000;
     color: white;
     padding: 2rem 0;
@@ -59,8 +59,8 @@ section img {
 
 /* Футер */
 footer {
-    width: 1440px;
-    margin: 0 auto;
+    width: 456px;
+    /* margin: 0 auto; */
     background: #333;
     color: white;
     text-align: center;
