@@ -1,0 +1,72 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Шапка сайта */
+header {
+    width: 1440px;
+    margin: 0 auto;
+    background: #8B0000;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Навигационное меню */
+nav {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #8B0000;
+}
+
+/* Секции */
+section {
+    padding: 3rem 2rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+    color: #8B0000;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 0.5rem;
+}
+section ul {
+    list-style: square;
+    margin-left: 20px;
+}
+section img {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Футер */
+footer {
+    width: 1440px;
+    margin: 0 auto;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
