@@ -10,11 +10,9 @@ body {
 
 /* Шапка сайта */
 header {
-    width: 456px;
-    /* margin: 0 auto; */
     background: #8B0000;
     color: white;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     text-align: center;
 }
 
@@ -25,10 +23,11 @@ nav {
     text-align: center;
 }
 nav a {
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: 0.9rem;
 }
 nav a:hover {
     color: #8B0000;
@@ -36,9 +35,9 @@ nav a:hover {
 
 /* Секции */
 section {
-    padding: 3rem 2rem;
-    margin: 2rem auto;
-    max-width: 1000px;
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+    max-width: 100%;
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -55,12 +54,11 @@ section ul {
 section img {
     margin-top: 20px;
     border-radius: 8px;
+    max-width: 100%;
 }
 
 /* Футер */
 footer {
-    width: 456px;
-    /* margin: 0 auto; */
     background: #333;
     color: white;
     text-align: center;
@@ -68,5 +66,31 @@ footer {
 }
 footer p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Адаптация для телефонов */
+@media (max-width: 768px) {
+    header {
+        padding: 1.5rem 1rem;
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+    section {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2rem;
+    }
+    nav a {
+        font-size: 0.8rem;
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
 }
